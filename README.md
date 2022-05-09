@@ -19,6 +19,10 @@ yarn build
 ```
 yarn test:unit
 ```
+### Run your unit tests specific file
+```
+yarn test:unit namefile
+```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

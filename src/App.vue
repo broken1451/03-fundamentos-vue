@@ -1,17 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+    <!-- <Counter title="Entraron" />
+    <Counter  title="Salieron"/> -->
+    <!-- <Counter title="Entraron" /> -->
+    <!-- <Counter /> manda un NaN-->
+    <!-- <Counter v-bind:start="10"/> transforma la variable en expresion js -->
+    <!-- <Counter start /> manda string vacio -->
+    <!-- <Counter  v-bind:start="10" /> -->
+    <!-- <Counter  /> -->
+    <Indecision  />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import Counter from "./components/Counter";
+import Indecision from './components/indecision.vue';
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    // Counter,
+    Indecision
+  },
+};
 </script>
 
 <style>
